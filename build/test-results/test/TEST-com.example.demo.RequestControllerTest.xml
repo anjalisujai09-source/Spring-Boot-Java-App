@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.RequestControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-29T06:09:29.398Z" hostname="ROG-G531GT" time="0.342">
+  <properties/>
+  <testcase name="submitShouldReturn200()" classname="com.example.demo.RequestControllerTest" time="0.342"/>
+  <system-out><![CDATA[11:39:25.713 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.RequestControllerTest]: RequestControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:39:25.889 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.RequestControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.10)
+
+2026-01-29T11:39:26.532+05:30  INFO 20080 --- [    Test worker] com.example.demo.RequestControllerTest   : Starting RequestControllerTest using Java 17.0.12 with PID 20080 (started by ARJUN in C:\Users\AR J UN\Downloads\demo (2)\demo)
+2026-01-29T11:39:26.534+05:30  INFO 20080 --- [    Test worker] com.example.demo.RequestControllerTest   : No active profile set, falling back to 1 default profile: "default"
+2026-01-29T11:39:29.096+05:30  WARN 20080 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e78ad154-1807-48ab-a5d7-4f141accf7db
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-01-29T11:39:29.108+05:30  INFO 20080 --- [    Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-01-29T11:39:29.334+05:30  INFO 20080 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-01-29T11:39:29.334+05:30  INFO 20080 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-01-29T11:39:29.336+05:30  INFO 20080 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2026-01-29T11:39:29.382+05:30  INFO 20080 --- [    Test worker] com.example.demo.RequestControllerTest   : Started RequestControllerTest in 3.384 seconds (process running for 4.906)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
